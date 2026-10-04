@@ -1,0 +1,21 @@
+# AWS local configuration / secrets
+.aws/
+credentials
+*.pem
+*.key
+.env
+.env.*
+
+# Terraform local state if IaC is added later
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
